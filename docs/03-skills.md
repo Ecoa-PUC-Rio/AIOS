@@ -26,10 +26,11 @@ tags: [aios, skill]
 
 Invocation: say the name or a trigger ("run the daily briefing"). Scheduled skills also run on their own (via your assistant's scheduler — e.g. Claude scheduled tasks).
 
-## The 6 core skills
+## The 7 core skills
 
 | Skill | ⏰ | Does | Produces |
 |---|---|---|---|
+| **Onboarding** | — | Conversational setup: interviews the user (accepts a pasted CV/LinkedIn), then drafts and writes ME.md, areas, project hubs, People and first Decisions — confirming each step | A configured vault, no manual editing |
 | **Daily Briefing** | 07:00 mon–fri | Yesterday's e-mail + today's calendar + open tasks + recent vault changes → focus of the day | Note in `History/YYYY-MM-DD.md` + chat summary |
 | **Start-Here (Boot)** | — | Rebuilds context (ME + map + recent changes) | Panorama + focus question |
 | **Capture → Inbox** | — | Classifies a loose idea/task and files it | One line in `Inbox.md` |

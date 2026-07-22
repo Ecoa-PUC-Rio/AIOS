@@ -12,9 +12,9 @@
 ## Setup individual (30–60 min)
 
 1. **Crie um vault** e copie o conteúdo de `vault-template/` para a raiz.
-2. **Preencha o `ME.md`**: quem você é, como trabalha, seus projetos ativos com prazos. É o arquivo de maior alavancagem do sistema — seja específico.
-3. **Defina suas áreas** (3–5 contextos de dono, ex.: `cliente-x`, `empresa`, `pessoal`) e atualize o Vault Map e os campos `area:` dos hubs de projeto.
-4. **Conecte a IA** ao vault e confirme o boot: diga "start" → ela deve ler o `ME.md` e perguntar no que focar.
+2. **Conecte a IA** ao vault (pasta conectada no Claude Desktop/Cowork, ou um MCP do Obsidian).
+3. **Rode a conversa de onboarding**: diga **"onboarding"** — a IA entrevista você (cole CV/LinkedIn, fale dos seus projetos) e rascunha e grava `ME.md`, suas 3–5 áreas e os hubs de projeto, confirmando cada etapa. Você nunca preenche arquivo na mão; o `ME.md` continua sendo o arquivo de maior alavancagem — a entrevista é como ele fica específico.
+4. **Confirme o boot**: numa conversa nova, diga "start" → a IA deve ler o `ME.md` e perguntar no que focar.
 5. **Agende** o Daily Briefing (manhãs de dia útil) e o Weekly Review (sexta à tarde) no agendador do seu assistente.
 6. **Rotina da primeira semana:** capture tudo ("captura: …"), deixe o briefing abrir seu dia, rode a review na sexta. Ajuste as skills — são só markdown.
 7. **Cresça o cérebro trabalhando:** decisão nova → nota em `Decisões/` no mesmo dia; pessoa nova em projeto → nota em `People/`; pedido repetido → skill nova.

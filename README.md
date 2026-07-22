@@ -47,7 +47,8 @@ AIOS/
 │   ├── 02-digital-brain   # type/area metadata, People/, Decisions/, Brain Atlas
 │   ├── 03-skills          # anatomy of a skill, the 6 core skills, scheduling
 │   ├── 04-security        # trust tiers, STRIDE, OWASP LLM Top 10, guardrails
-│   └── 05-adoption-guide  # step-by-step for individuals and teams
+│   ├── 05-adoption-guide  # adoption patterns for individuals and teams
+│   └── 06-implementation-guide  # hands-on step-by-step: 7 phases, checkpoints, week-1 plan
 ├── vault-template/        # copy this into a new Obsidian vault (pt-BR)
 │   ├── CLAUDE.md · ME.md
 │   ├── AIOS/              # Maps, Skills, Systems, History, Inbox, Tasks
@@ -59,12 +60,12 @@ AIOS/
 ## Quickstart
 
 1. Create a new Obsidian vault and copy the contents of `vault-template/` into it.
-2. Fill in `ME.md` (or rename it to a project identity — see the team section of the adoption guide).
+2. Say **"onboarding"** — the AI interviews you (paste your CV/LinkedIn if you like) and fills in `ME.md`, your areas, project hubs, people and first decisions, confirming each step. No manual file editing.
 3. Connect your AI to the vault (Claude Desktop/Cowork with an Obsidian MCP, or any assistant with file access).
-4. Say **"start"** — the Boot skill reads your identity and map and asks what to focus on.
+4. In later conversations, say **"start"** — the Boot skill reads your identity and map and asks what to focus on.
 5. Optional: install [Brain Atlas](https://github.com/colorpulse6/brain-atlas) and apply `plugin-configs/` to see your vault as a brain.
 
-Full instructions: [docs/05-adoption-guide.md](docs/05-adoption-guide.md).
+Full instructions: [docs/06-implementation-guide.md](docs/06-implementation-guide.md) (7 phases with checkpoints) and [docs/05-adoption-guide.md](docs/05-adoption-guide.md).
 
 ## For teams
 

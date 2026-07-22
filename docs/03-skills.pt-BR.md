@@ -26,10 +26,11 @@ tags: [aios, skill]
 
 Invocação: pelo nome ou por um gatilho ("roda o daily briefing"). Skills agendadas também rodam sozinhas (pelo agendador do seu assistente — ex.: scheduled tasks do Claude).
 
-## As 6 skills base
+## As 7 skills base
 
 | Skill | ⏰ | Faz | Produz |
 |---|---|---|---|
+| **Onboarding** | — | Setup conversacional: entrevista o usuário (aceita CV/LinkedIn colado), rascunha e grava ME.md, áreas, hubs, People e primeiras Decisões — confirmando cada etapa | Vault configurado, sem edição manual |
 | **Daily Briefing** | 07h seg–sex | E-mails de ontem + agenda de hoje + tarefas abertas + mudanças no vault → foco do dia | Nota em `History/AAAA-MM-DD.md` + resumo no chat |
 | **Start-Here (Boot)** | — | Reconstrói contexto (ME + mapa + mudanças recentes) | Panorama + pergunta de foco |
 | **Captura → Inbox** | — | Classifica ideia/tarefa solta e arquiva | Linha no `Inbox.md` |

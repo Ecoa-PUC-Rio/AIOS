@@ -12,9 +12,9 @@
 ## Individual setup (30–60 min)
 
 1. **Create a vault** and copy the contents of `vault-template/` into its root.
-2. **Fill `ME.md`**: who you are, how you work, your active projects with deadlines. This is the highest-leverage file in the system — be specific.
-3. **Define your areas** (3–5 ownership contexts, e.g. `client-x`, `company`, `personal`) and update the Vault Map and the `area:` fields of your project hubs.
-4. **Connect the AI** to the vault and confirm the boot works: say "start" → it should read `ME.md` and ask what to focus on.
+2. **Connect the AI** to the vault (Claude Desktop/Cowork connected folder, or an Obsidian MCP).
+3. **Run the onboarding conversation**: say **"onboarding"** — the AI interviews you (paste your CV/LinkedIn, talk about your projects) and drafts and writes `ME.md`, your 3–5 areas and the project hubs, confirming each step. You never fill a file by hand; `ME.md` stays the highest-leverage file in the system — the interview is how it gets specific.
+4. **Confirm the boot**: in a new conversation, say "start" → the AI should read `ME.md` and ask what to focus on.
 5. **Schedule** the Daily Briefing (weekday mornings) and the Weekly Review (Friday afternoon) in your assistant's scheduler.
 6. **First week routine:** capture everything ("capture: …"), let the briefing open your day, run the review on Friday. Adjust the skills — they are just markdown.
 7. **Grow the brain as you work:** new decision → note in `Decisões/` the same day; new person in a project → note in `People/`; new repeated request → new skill.
