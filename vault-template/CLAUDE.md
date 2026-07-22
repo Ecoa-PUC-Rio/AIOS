@@ -1,0 +1,1 @@
+Leia ME.md imediatamente antes de qualquer coisa. Depois, se precisar localizar uma área, use AIOS/Maps/Vault Map.md. Se a tarefa casar com uma skill, siga o playbook em AIOS/Skills/. Regras de segurança em AIOS/Systems/AIOS — Segurança e Guardrails.md valem sempre.

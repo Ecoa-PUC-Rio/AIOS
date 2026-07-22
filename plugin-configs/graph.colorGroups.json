@@ -1,0 +1,53 @@
+{
+  "colorGroups": [
+    {
+      "query": "path:<pasta-area-1>",
+      "color": {
+        "a": 1,
+        "rgb": 1492890
+      }
+    },
+    {
+      "query": "path:<pasta-area-2> OR path:<outra-pasta-area-2>",
+      "color": {
+        "a": 1,
+        "rgb": 15287648
+      }
+    },
+    {
+      "query": "path:<pasta-area-3>",
+      "color": {
+        "a": 1,
+        "rgb": 4886745
+      }
+    },
+    {
+      "query": "path:<pasta-pessoal>",
+      "color": {
+        "a": 1,
+        "rgb": 16098851
+      }
+    },
+    {
+      "query": "path:People",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:Decisões",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "path:AIOS",
+      "color": {
+        "a": 1,
+        "rgb": 9807270
+      }
+    }
+  ]
+}
