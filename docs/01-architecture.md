@@ -11,11 +11,11 @@
 | Piece | File / folder | Role |
 |---|---|---|
 | Identity | `ME.md` | Who you are, how you work, active projects and deadlines. **Always read first.** |
-| Bootstrap | `CLAUDE.md` | One line at the vault root that forces the AI to read `ME.md` immediately. |
+| Bootstrap | `CLAUDE.md` | At the vault root: forces the AI to read `ME.md` immediately and makes the session log mandatory. |
 | Map | `AIOS/Maps/Vault Map.md` | Where each area lives and which note is the entry point. |
 | Capabilities | `AIOS/Maps/Skill Map.md` | Catalog of skills: triggers, what each does, what it produces. |
 | Skills | `AIOS/Skills/` | Invocable playbooks — step-by-step procedures the AI executes. |
-| Memory | `AIOS/History/` | Daily notes written by the Daily Briefing skill (log of what happened). |
+| Memory | `AIOS/History/` | Daily notes: morning briefing + session logs (log of what happened). |
 | Capture | `AIOS/Inbox.md` | Fast entry point for loose ideas/tasks, before processing. |
 | Tasks | `AIOS/Tasks/Tarefas.md` | Kanban board (To Do / Doing / Done). Open items feed the Daily Briefing. |
 | Security | `AIOS/Systems/…Guardrails.md` | Threat model + anti-injection rules. **Applies to every skill.** |
@@ -26,7 +26,7 @@
 1. Read `ME.md` (profile + active projects and deadlines). `CLAUDE.md` at the vault root enforces this.
 2. Consult the **Vault Map** only when you need to locate an area.
 3. If the task matches a skill, open its playbook in `AIOS/Skills/` and follow it.
-4. When something relevant is finished, **leave a trace**: update the project note, the Inbox or History.
+4. When something relevant is finished, **write the trace — without being asked**: update the project note (and Decisions/Inbox when applicable) and append a session summary to `History/YYYY-MM-DD.md`, under `## 📝 Sessões`. Persisting is mandatory: whatever doesn't reach the vault stops existing in the next session.
 
 ## Conventions
 

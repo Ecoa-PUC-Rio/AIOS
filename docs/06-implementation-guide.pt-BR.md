@@ -24,7 +24,7 @@ Do zero a um AIOS funcionando em **7 fases**. As fases 0–3 entregam um sistema
 3. Copie **o conteúdo de** `vault-template/` para a raiz do vault. Você deve ter:
    ```
    <vault>/
-   ├── CLAUDE.md          ← bootstrap da IA (uma linha)
+   ├── CLAUDE.md          ← bootstrap da IA (boot + persistência)
    ├── ME.md              ← sua identidade (template)
    ├── AIOS/              ← Maps, Skills, Systems, History, Tasks, Inbox
    ├── People/  ├── Decisões/  └── Projetos/

@@ -24,7 +24,7 @@ AIOS is a **framework**, not a plugin. It is a set of conventions, note structur
 └─────────────────────────────────────────────┘
 ```
 
-Every conversation **boots with context** (identity → map → skill) and **ends leaving a trace** (History, Inbox or a project note). Nothing depends on the chat history of a single session: the state lives in the vault.
+Every conversation **boots with context** (identity → map → skill) and **ends by writing its trace automatically** (project note, Inbox and a session summary in History) — without the operator having to ask. Nothing depends on the chat history of a single session: the state lives in the vault.
 
 ## The metadata layer (digital brain)
 

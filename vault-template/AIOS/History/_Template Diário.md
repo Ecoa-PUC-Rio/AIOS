@@ -28,3 +28,7 @@ tags:
 
 ## ⏱️ Prazos no radar
 - Projeto — prazo — dias restantes
+
+## 📝 Sessões
+
+- HH:MM — o que foi feito/decidido → [[nota atualizada]]

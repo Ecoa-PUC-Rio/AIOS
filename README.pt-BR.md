@@ -24,7 +24,7 @@ O AIOS é um **framework**, não um plugin. É um conjunto de convenções, estr
 └──────────────────────────────────────────────┘
 ```
 
-Toda conversa **inicia com contexto** (identidade → mapa → skill) e **termina deixando rastro** (History, Inbox ou nota de projeto). Nada depende do histórico de chat de uma sessão: o estado vive no vault.
+Toda conversa **inicia com contexto** (identidade → mapa → skill) e **termina gravando rastro automaticamente** (nota de projeto, Inbox e resumo de sessão em History) — sem o operador precisar pedir. Nada depende do histórico de chat de uma sessão: o estado vive no vault.
 
 ## A camada de metadados (cérebro digital)
 

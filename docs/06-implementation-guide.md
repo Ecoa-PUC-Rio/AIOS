@@ -24,7 +24,7 @@ From zero to a working AIOS in **7 phases**. Phases 0–3 get you a booting syst
 3. Copy **the contents of** `vault-template/` into the vault root. You should now have:
    ```
    <vault>/
-   ├── CLAUDE.md          ← AI bootstrap (one line)
+   ├── CLAUDE.md          ← AI bootstrap (boot + persistence)
    ├── ME.md              ← your identity (template)
    ├── AIOS/              ← Maps, Skills, Systems, History, Tasks, Inbox
    ├── People/  ├── Decisões/  └── Projetos/
