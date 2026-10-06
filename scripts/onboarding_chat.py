@@ -17,7 +17,7 @@ TEXT = {
         "title": "Your AI assistant · connected to the vault",
         "tag": "Illustrative conversation",
         "turns": [
-            ("u", "onboarding"),
+            ("u", "init aios"),
             ("a", "This vault is brand new, so let's set it up by talking. <b>Tell me who you are and what you do</b> — or just paste your CV / LinkedIn and I'll extract it."),
             ("u", "<i>[pastes CV]</i> Also: I keep things short, and nothing goes out in my name before I read it."),
             ("a", "Here is the draft of <code>ME.md</code>:<div class='draft'><b>Marina Duarte</b> — product &amp; data consultant · MSc student<br>Tone: concise and direct<br>Non-negotiable: nothing sent without her review</div>Save it?"),
@@ -32,7 +32,7 @@ TEXT = {
         "title": "Seu assistente de IA · conectado ao vault",
         "tag": "Conversa ilustrativa",
         "turns": [
-            ("u", "onboarding"),
+            ("u", "init aios"),
             ("a", "Este vault é novo, então vamos configurar conversando. <b>Me conta quem você é e o que você faz</b> — ou cole seu CV / LinkedIn que eu extraio."),
             ("u", "<i>[cola o CV]</i> E mais: sou direta, e nada sai em meu nome sem eu ler."),
             ("a", "Rascunho do <code>ME.md</code>:<div class='draft'><b>Marina Duarte</b> — consultora de produto e dados · mestranda<br>Tom: conciso e direto<br>Inegociável: nada enviado sem revisão dela</div>Posso gravar?"),

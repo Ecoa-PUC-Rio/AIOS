@@ -12,7 +12,7 @@ tags:
 
 > Página de entrada do vault. Reúne quem sou, como trabalho e o índice dos projetos ativos, para dar contexto rápido a qualquer assistente de IA (e a mim mesmo). **A IA deve ler esta nota primeiro, sempre.**
 >
-> 💡 **Não preencha este arquivo na mão:** diga **"onboarding"** ao seu assistente — a skill [[AIOS/Skills/Onboarding|Onboarding]] entrevista você (aceita CV/LinkedIn colado) e preenche tudo com sua confirmação.
+> 💡 **Não preencha este arquivo na mão:** diga **"init aios"** ao seu assistente — a skill [[AIOS/Skills/Onboarding|Onboarding]] entrevista você (aceita CV/LinkedIn colado) e preenche tudo com sua confirmação.
 
 ## Quem sou
 

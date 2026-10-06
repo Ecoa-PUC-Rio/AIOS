@@ -65,11 +65,11 @@ From zero to a working AIOS in **7 phases**. You don't need to be technical: if 
 
 ## Phase 3 — The onboarding conversation (20–40 min)
 
-**You don't fill in any file by hand.** Say **"onboarding"** and let the AI interview you — the [Onboarding skill](../vault-template/AIOS/Skills/Onboarding.md) drives, drafts every note, shows it, and only writes after your OK:
+**You don't fill in any file by hand.** Say **"init aios"** and let the AI interview you — the [Onboarding skill](../vault-template/AIOS/Skills/Onboarding.md) drives, drafts every note, shows it, and only writes after your OK:
 
 1. **Identity** — talk about yourself, or just paste your **CV / LinkedIn profile** and let it extract. Follow-ups only for what's missing (how you like to work, tone, non-negotiables). → writes `ME.md`.
 2. **Areas & projects** — describe what fills your week, in your own words. The AI proposes 3–5 ownership areas, validates them with you (*every* project must belong to exactly one) and creates a hub per active project with `type: project`, `area: <x>`, deadline and a one-liner. → writes hubs + `ME.md` projects section + Vault Map table.
-3. Placeholders are fine: if you don't know an answer, the AI records `<to define>` and moves on. You can rerun "onboarding" anytime — it detects what exists and only complements.
+3. Placeholders are fine: if you don't know an answer, the AI records `<to define>` and moves on. You can rerun "init aios" anytime — it detects what exists and only complements.
 
 ![Illustration of the onboarding conversation](assets/onboarding-chat.png)
 

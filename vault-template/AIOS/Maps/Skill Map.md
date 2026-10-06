@@ -19,7 +19,7 @@ Peça pelo nome ou por um gatilho — ex.: *"roda o Daily Briefing"*, *"captura:
 
 | Skill | ⏰ | Gatilhos | Faz | Produz |
 |---|---|---|---|---|
-| [[AIOS/Skills/Onboarding\|Onboarding]] | — | "onboarding", "setup", "vamos começar" | Setup conversacional: entrevista o usuário (aceita CV/LinkedIn) e preenche ME, áreas, hubs, People e Decisões com confirmação | Vault configurado, sem edição manual |
+| [[AIOS/Skills/Onboarding\|Onboarding]] | — | "init aios", "setup", "vamos começar" | Setup conversacional: entrevista o usuário (aceita CV/LinkedIn) e preenche ME, áreas, hubs, People e Decisões com confirmação | Vault configurado, sem edição manual |
 | [[AIOS/Skills/Daily Briefing\|Daily Briefing]] | 07h seg–sex | "daily briefing", "resumo do dia", "bom dia" | E-mails de ontem + agenda de hoje + tarefas em aberto + mudanças no vault → foco do dia | Nota em `History/AAAA-MM-DD.md` + resumo no chat |
 | [[AIOS/Skills/Start-Here (Boot)\|Start-Here (Boot)]] | — | "start", "boot", "onde paramos", "me atualiza" | Reconstrói contexto (ME + Vault Map + recente) | Panorama no chat + pergunta de foco |
 | [[AIOS/Skills/Captura para Inbox\|Captura → Inbox]] | — | "captura:", "anota:", "lembra de" | Classifica ideia/tarefa solta e arquiva | Linha em [[AIOS/Inbox\|Inbox]] |
