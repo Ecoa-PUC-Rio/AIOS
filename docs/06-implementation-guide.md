@@ -2,7 +2,24 @@
 
 *[Versão em português → 06-implementation-guide.pt-BR.md](06-implementation-guide.pt-BR.md)*
 
-From zero to a working AIOS in **7 phases**. Phases 0–3 get you a booting system (~1 hour). Phases 4–6 grow it into a real digital brain over your first week. Phase 7 is for teams.
+From zero to a working AIOS in **7 phases**. You don't need to be technical: if you can copy a folder and hold a conversation, you can do this. Nothing here is written by hand — after the template is in place, the AI does the typing.
+
+## The path at a glance
+
+| Phase | What happens | Time | You end up with |
+|---|---|---|---|
+| 0 | Install Obsidian, pick your assistant | 10 min | The two tools you need |
+| 1 | Copy the template into a vault | 10 min | The folder structure |
+| 2 | Connect the AI to the vault | 15 min | An assistant that offers the onboarding by itself |
+| 3 | **The onboarding conversation** | 20–40 min | `ME.md`, areas and project hubs — **a working AIOS** |
+| 4 | Tell it about people and decisions | ongoing | A brain that knows who's who and what was decided |
+| 5 | Test and schedule the skills | 30 min | A briefing that arrives on its own |
+| 6 | Visualization *(optional)* | 15 min | Your vault as a colored graph / 3D brain |
+| 7 | Team setup *(optional)* | ~1 h per project | A shared project brain |
+
+**In a hurry?** Phases 0–3 are the whole product: about an hour, and you have a system that boots with your context. Everything after that happens during your first week of normal use.
+
+**Want to see the destination first?** Open [`examples/demo-vault`](../examples/demo-vault) as a vault in Obsidian — it is this guide already followed, for a fictional operator. The screenshots below come from it.
 
 ---
 
@@ -19,7 +36,7 @@ From zero to a working AIOS in **7 phases**. Phases 0–3 get you a booting syst
 
 ## Phase 1 — Install the template (10 min)
 
-1. Get the repo: `git clone https://github.com/jcarlos78/AIOS` (or download the ZIP).
+1. Get the repo: `git clone https://github.com/Ecoa-PUC-Rio/AIOS` (or download the ZIP).
 2. Create/open your vault in Obsidian.
 3. Copy **the contents of** `vault-template/` into the vault root. You should now have:
    ```
@@ -54,7 +71,13 @@ From zero to a working AIOS in **7 phases**. Phases 0–3 get you a booting syst
 2. **Areas & projects** — describe what fills your week, in your own words. The AI proposes 3–5 ownership areas, validates them with you (*every* project must belong to exactly one) and creates a hub per active project with `type: project`, `area: <x>`, deadline and a one-liner. → writes hubs + `ME.md` projects section + Vault Map table.
 3. Placeholders are fine: if you don't know an answer, the AI records `<to define>` and moves on. You can rerun "onboarding" anytime — it detects what exists and only complements.
 
+![Illustration of the onboarding conversation](assets/onboarding-chat.png)
+
+<sub>Illustrative — your conversation happens in your own assistant and follows these same steps.</sub>
+
 ✅ **Checkpoint:** reading `ME.md` alone, a stranger (or an LLM) could say who you are, what you're working on, and what's due this month — and you didn't open a single file.
+
+![ME.md after onboarding, in Obsidian](assets/obsidian-me.png)
 
 ## Phase 4 — Seed the brain, by talking (part of onboarding, then continuous)
 
@@ -80,10 +103,14 @@ People and decisions also enter **through conversation**, never through file edi
 
 ✅ **Checkpoint:** tomorrow morning a briefing note exists in `History/` that you didn't ask for.
 
+![A daily briefing note in Obsidian](assets/obsidian-daily-briefing.png)
+
 ## Phase 6 — Visualization layer (optional, 15 min)
 
 1. Install the **Brain Atlas** community plugin; merge `plugin-configs/brain-atlas.data.json` into its settings; reload Obsidian → your vault renders as a brain (projects/decisions frontal, people temporal, sources occipital…). Empty regions = honest gaps in your brain.
 2. Graph view → create one color group per area using `plugin-configs/graph.colorGroups.json` as reference → ownership becomes visible at a glance.
+
+![Graph view with one color per area](assets/obsidian-graph.png)
 
 ## Phase 7 — Team / project environment (per project, ~1 h)
 
