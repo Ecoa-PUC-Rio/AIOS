@@ -65,11 +65,11 @@ Do zero a um AIOS funcionando em **7 fases**. Não precisa ser técnico: se voc�
 
 ## Fase 3 — A conversa de onboarding (20–40 min)
 
-**Você não preenche arquivo nenhum na mão.** Diga **"onboarding"** e deixe a IA entrevistar você — a [skill de Onboarding](../vault-template/AIOS/Skills/Onboarding.md) conduz, rascunha cada nota, mostra, e só grava depois do seu OK:
+**Você não preenche arquivo nenhum na mão.** Diga **"init aios"** e deixe a IA entrevistar você — a [skill de Onboarding](../vault-template/AIOS/Skills/Onboarding.md) conduz, rascunha cada nota, mostra, e só grava depois do seu OK:
 
 1. **Identidade** — fale de você, ou simplesmente cole seu **CV / perfil do LinkedIn** e deixe a IA extrair. Perguntas de acompanhamento só para o que faltar (como gosta de trabalhar, tom, inegociáveis). → grava o `ME.md`.
 2. **Áreas e projetos** — descreva o que ocupa sua semana, com suas palavras. A IA propõe 3–5 áreas (donos), valida com você (*todo* projeto pertence a exatamente uma) e cria um hub por projeto ativo com `type: project`, `area: <x>`, prazo e descrição de uma linha. → grava hubs + seção de projetos do `ME.md` + tabela do Vault Map.
-3. Placeholder é aceitável: se você não souber responder algo, a IA registra `<a definir>` e segue. Pode rodar "onboarding" de novo quando quiser — ela detecta o que existe e só complementa.
+3. Placeholder é aceitável: se você não souber responder algo, a IA registra `<a definir>` e segue. Pode rodar "init aios" de novo quando quiser — ela detecta o que existe e só complementa.
 
 ![Ilustração da conversa de onboarding](assets/onboarding-chat.pt-BR.png)
 

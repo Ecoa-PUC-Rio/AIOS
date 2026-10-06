@@ -2,7 +2,7 @@
 title: Onboarding
 type: skill
 triggers:
-  - "onboarding"
+  - "init aios"
   - "setup"
   - "configura o aios"
   - "vamos começar"

@@ -26,9 +26,9 @@ O AIOS é um **framework, não um plugin**: convenções, estruturas de notas, p
 
 ## Configure conversando
 
-Você não preenche um arquivo sequer na mão. Copie o template, diga **"onboarding"**, e a IA entrevista você — cole seu CV ou LinkedIn se quiser. Ela rascunha cada nota, mostra, e só grava depois do seu OK.
+Você não preenche um arquivo sequer na mão. Copie o template, diga **"init aios"**, e a IA entrevista você — cole seu CV ou LinkedIn se quiser. Ela rascunha cada nota, mostra, e só grava depois do seu OK.
 
-![Ilustração da conversa de onboarding: o usuário diz "onboarding", cola o CV, confirma o rascunho do ME.md, e o assistente lista as notas que gravou](docs/assets/onboarding-chat.pt-BR.png)
+![Ilustração da conversa de onboarding: o usuário diz "init aios", cola o CV, confirma o rascunho do ME.md, e o assistente lista as notas que gravou](docs/assets/onboarding-chat.pt-BR.png)
 
 <sub>Ilustrativo — a conversa acontece no assistente que você conectar, então vai ter a cara do seu. As etapas são as que a [skill de Onboarding](vault-template/AIOS/Skills/Onboarding.md) conduz.</sub>
 
@@ -55,7 +55,7 @@ cp -r AIOS/vault-template/. /caminho/do/seu/vault/
 
 1. **Abra** essa pasta como vault no Obsidian.
 2. **Conecte** seu assistente à mesma pasta.
-3. **Diga "onboarding".** A IA percebe que o vault é novo e conduz você.
+3. **Diga "init aios".** A IA percebe que o vault é novo e conduz você.
 
 Daí em diante, comece qualquer conversa com **"start"** — a IA lê sua identidade e seu mapa e pergunta no que focar.
 
