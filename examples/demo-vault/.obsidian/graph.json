@@ -1,0 +1,67 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#area/orbita",
+      "color": {
+        "a": 1,
+        "rgb": 15287648
+      }
+    },
+    {
+      "query": "tag:#area/estudio",
+      "color": {
+        "a": 1,
+        "rgb": 1492890
+      }
+    },
+    {
+      "query": "tag:#area/mestrado",
+      "color": {
+        "a": 1,
+        "rgb": 4886745
+      }
+    },
+    {
+      "query": "tag:#area/pessoal",
+      "color": {
+        "a": 1,
+        "rgb": 16098851
+      }
+    },
+    {
+      "query": "path:People",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "path:Decisões",
+      "color": {
+        "a": 1,
+        "rgb": 3066993
+      }
+    },
+    {
+      "query": "path:AIOS",
+      "color": {
+        "a": 1,
+        "rgb": 9807270
+      }
+    }
+  ],
+  "showTags": false,
+  "showAttachments": false,
+  "showOrphans": false,
+  "hideUnresolved": true,
+  "showArrow": false,
+  "close": true,
+  "search": "-file:_Template -file:README",
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 1.35,
+  "lineSizeMultiplier": 1.1,
+  "centerStrength": 0.45,
+  "repelStrength": 12,
+  "linkStrength": 1,
+  "linkDistance": 180
+}
